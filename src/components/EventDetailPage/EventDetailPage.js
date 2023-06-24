@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import {useParams, useNavigate} from 'react-router-dom';
+import {useParams, useNavigate, Link} from 'react-router-dom';
 import {events} from '../helper/event';
 import styles from './EventDetailPage.module.css';
 
@@ -34,7 +34,7 @@ function EventDetailPage({onBet}) {
 
     return (
         <div className={styles.EventDetailPage}>
-            <a className={styles.longArrowLeft} href="/" onClick={(e) => {e.preventDefault(); navigate(-1);}}>back</a>
+            <Link className={styles.longArrowLeft} to="/" onClick={(e) => {e.preventDefault(); navigate(-1);}}>back</Link>
             <h1>{event.name}</h1>
             <p>Дата: {event.date}</p>
             <p>Команды: {event.teams.join(' vs ')}</p>

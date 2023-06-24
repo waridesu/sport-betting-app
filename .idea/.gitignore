@@ -4,3 +4,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .idea/
+/modules.xml
+/inspectionProfiles/Project_Default.xml
+/sport-betting-app.iml
+/vcs.xml

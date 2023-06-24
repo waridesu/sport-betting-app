@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sport-betting-app/static/css/main.ce003b31.css",
+    "main.js": "/sport-betting-app/static/js/main.e6ced980.js",
+    "static/js/787.f1e8b4cc.chunk.js": "/sport-betting-app/static/js/787.f1e8b4cc.chunk.js",
+    "static/media/home-background.webp": "/sport-betting-app/static/media/home-background.1ffb7673e7780d33e5f8.webp",
+    "static/media/bet-background.webp": "/sport-betting-app/static/media/bet-background.fb711a6f922aa1698a48.webp",
+    "index.html": "/sport-betting-app/index.html",
+    "main.ce003b31.css.map": "/sport-betting-app/static/css/main.ce003b31.css.map",
+    "main.e6ced980.js.map": "/sport-betting-app/static/js/main.e6ced980.js.map",
+    "787.f1e8b4cc.chunk.js.map": "/sport-betting-app/static/js/787.f1e8b4cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce003b31.css",
+    "static/js/main.e6ced980.js"
+  ]
+}

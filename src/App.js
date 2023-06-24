@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import HomePage from './components/HomePage/HomePage';
 import EventDetailPage from './components/EventDetailPage/EventDetailPage';
 import Notification from './components/Notification/Notification';
+import {basename, event, home} from './shared/routes';
 
 function App() {
     const [notification, setNotification] = useState(null);
@@ -23,16 +24,16 @@ function App() {
         }
     }, [notification]);
     return (
-        <Router>
+        <BrowserRouter basename={basename}>
             <div className="App">
                 {notification && <Notification
                     message={`Спасибо, ваша ставка ${notification.match}, ставка ${notification.bet} принята`}/>}
                 <Routes>
-                    <Route path="/" render={<HomePage/>}/>
-                    <Route path="/event/:id" render={<EventDetailPage onBet={handleBet}/>}/>
+                    <Route path={home} element={<HomePage/>}/>
+                    <Route path={event} element={<EventDetailPage onBet={handleBet}/>}/>
                 </Routes>
             </div>
-        </Router>
+        </BrowserRouter>
     );
 }
 

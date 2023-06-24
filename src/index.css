@@ -23,4 +23,10 @@ code {
     background-position: bottom center;
     background-repeat: no-repeat;
     height: 100vh;
+
+}
+@media (max-width: 768px) {
+    .App {
+        padding: 0 20px;
+    }
 }

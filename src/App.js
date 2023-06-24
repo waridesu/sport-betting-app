@@ -28,8 +28,8 @@ function App() {
                 {notification && <Notification
                     message={`Спасибо, ваша ставка ${notification.match}, ставка ${notification.bet} принята`}/>}
                 <Routes>
-                    <Route path="/" element={<HomePage/>}/>
-                    <Route path="/event/:id" element={<EventDetailPage onBet={handleBet}/>}/>
+                    <Route path="/" render={<HomePage/>}/>
+                    <Route path="/event/:id" render={<EventDetailPage onBet={handleBet}/>}/>
                 </Routes>
             </div>
         </Router>

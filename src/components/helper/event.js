@@ -1,8 +1,8 @@
 export const events = [
     { id: 1, name: 'Manchester United vs Chelsea', date: '22.06.2023', teams: ['Manchester United', 'Chelsea'], selectedBet: '' },
     { id: 2, name: 'Barcelona vs Real Madrid', date: '23.06.2023', teams: ['Barcelona', 'Real Madrid'], selectedBet: '' },
-    { id: 3, name: 'Bayern Munich vs Borussia Dortmund', date: '24.06.2023', teams: ['Bayern Munich', 'Borussia Dortmund'], selectedBet: '' },
-    { id: 4, name: 'Saint-Germain vs Olympique Lyonnais', date: '25.06.2023', teams: ['Paris Saint-Germain', 'Olympique Lyonnais'], selectedBet: '' },
+    { id: 3, name: 'Munich vs Borussia Dortmund', date: '24.06.2023', teams: ['Bayern Munich', 'Borussia Dortmund'], selectedBet: '' },
+    { id: 4, name: 'Roma vs Olympique Lyonnais', date: '25.06.2023', teams: ['Paris Saint-Germain', 'Olympique Lyonnais'], selectedBet: '' },
     { id: 5, name: 'Juventus vs Inter Milan', date: '26.06.2023', teams: ['Juventus', 'Inter Milan'], selectedBet: '' },
     { id: 6, name: 'Liverpool vs Manchester City', date: '27.06.2023', teams: ['Liverpool', 'Manchester City'], selectedBet: '' },
     { id: 7, name: 'AC Milan vs Roma', date: '28.06.2023', teams: ['AC Milan', 'Roma'], selectedBet: '' },
